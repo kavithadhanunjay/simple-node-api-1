@@ -4,6 +4,6 @@ jobs:
     docker:
       - image: kavithareddy/terraform-heroku
     steps: 
-      -checkout 
-      -run:  | 
+      - checkout 
+      - run:  | 
          ls
